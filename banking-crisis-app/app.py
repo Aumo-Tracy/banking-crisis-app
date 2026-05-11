@@ -2,9 +2,10 @@ import streamlit as st
 import pickle
 import numpy as np
 
-# ── Load model and scaler ──────────────────────────────────
-model  = pickle.load(open('best_model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model  = pickle.load(open(os.path.join(BASE_DIR, 'best_model.pkl'), 'rb'))
+scaler = pickle.load(open(os.path.join(BASE_DIR, 'scaler.pkl'), 'rb'))
 
 # ── Page config ────────────────────────────────────────────
 st.set_page_config(
