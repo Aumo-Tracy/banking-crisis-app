@@ -57,9 +57,9 @@ and returns a crisis risk prediction in real time.
 
 | Model | Accuracy | Precision | Recall | F1 |
 |---|---|---|---|---|
-| Logistic Regression | 0.958% | 0.750% | 0.789% | 0.769% |
-| Random Forest ⭐ | 0.976% | 0.938% | 0.780% | 0.857% |
-| XGBoost | 0.967% | 0.833% | 0.789% | 0.811% |
+| Logistic Regression | 95.8% | 75.0% | 78.9% | 76.9% |
+| Random Forest ⭐ | 97.6% | 93.8% | 78.0% | 85.7% |
+| XGBoost | 96.7% | 83.3% | 78.9% | 81.1% |
 
 > ⭐ **Best Model: Random Forest** — selected for deployment
 
